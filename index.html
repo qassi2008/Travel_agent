@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agent - Explore the World</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <h1 class="logo">Travel<span>Agent</span></h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#destinations">Destinations</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Explore the World with Us</h2>
+            <p>Your adventure starts here. Discover new places, meet new people, and create unforgettable memories.</p>
+            <a href="#destinations" class="btn">Explore Destinations</a>
+        </div>
+    </section>
+
+    <section id="destinations" class="destinations">
+        <div class="container">
+            <h2>Popular Destinations</h2>
+            <div class="destination-grid">
+                <div class="destination">
+                    <img src="paris.jpg" alt="Destination 1">
+                    <h3>Paris, France</h3>
+                    <p>Experience the romance and culture of Paris.</p>
+                </div>
+                <div class="destination">
+                    <img src="japan.webp" alt="Destination 2">
+                    <h3>Tokyo, Japan</h3>
+                    <p>Discover the vibrant city of Tokyo.</p>
+                </div>
+                <div class="destination">
+                    <img src="sydne.jpg" alt="Destination 3">
+                    <h3>Sydney, Australia</h3>
+                    <p>Enjoy the sun and beaches of Sydney.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-grid">
+                <div class="service">
+                    <h3>Flight Booking</h3>
+                    <p>Get the best deals on flights to your favorite destinations.</p>
+                </div>
+                <div class="service">
+                    <h3>Hotel Reservations</h3>
+                    <p>Stay at the best hotels with our exclusive deals.</p>
+                </div>
+                <div class="service">
+                    <h3>Custom Packages</h3>
+                    <p>Plan your perfect trip with our tailored travel packages.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Ready to start your journey? Contact us today!</p>
+            <form id="contactForm" action="#">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Travel Agent. All rights reserved.</p>
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
